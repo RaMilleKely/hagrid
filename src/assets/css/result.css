@@ -1,0 +1,43 @@
+.result {
+    background-image: url(../img/texture.png);
+    padding: 8rem 6rem 8rem 6rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.result .img-left {
+    width: 10rem;
+    position: absolute;
+    top: 50%;
+    left: -4rem;
+}
+
+.result .img-right {
+    width: 8rem;
+    position: absolute;
+    top: 0;
+    right: -3rem;
+}
+
+.result h2 {
+    font-family: BeVietnamPro-Bold;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.result h3 {
+    font-family: BeVietnamPro-Thin;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 1.5rem 0 3rem 0;
+}
+
+.result .card-list {
+    display: grid;
+    gap: 6rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}

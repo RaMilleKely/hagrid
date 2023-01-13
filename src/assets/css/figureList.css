@@ -1,0 +1,7 @@
+ul.figureList {
+    list-style-type: none;
+}
+
+ul.figureList li + li {
+    margin-top: 24px;
+}

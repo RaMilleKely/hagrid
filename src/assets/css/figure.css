@@ -1,0 +1,45 @@
+figure {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 24px;
+    border: 1px solid #000000;
+    box-shadow: black 0px 0px 0px 0px, black 0px 0px 0px 0px, rgba(0, 0, 0, 0.8) 8px 8px 0px 0px;
+    border-radius: 8px;
+    text-align: start;
+}
+
+figure:hover {
+    transform: translate(0, -6px);
+}
+
+figure blockquote {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+figure figcaption {
+    display: flex;
+    justify-content: start;
+}
+
+figure figcaption img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+figure figcaption .auteur {
+    margin-left: 16px;
+
+}
+
+figure figcaption .auteur .username {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+figure figcaption .auteur .usertag {
+    margin-top: 4px;
+    font-size: .75rem;
+    line-height: 1rem;
+}

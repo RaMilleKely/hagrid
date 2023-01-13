@@ -1,0 +1,25 @@
+.card {
+
+}
+
+.card img {
+
+}
+
+.card .card-body {
+
+}
+
+.card .card-body h4 {
+    font-family: BeVietnamPro-Bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+} 
+
+.card .card-body p {
+    font-family: BeVietnamPro-Thin;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: .5rem;
+}

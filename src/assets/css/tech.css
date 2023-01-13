@@ -1,0 +1,43 @@
+.tech {
+    padding: 2.5rem 6rem;
+    background-color: #18181B;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.tech-title span {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.wavy-left {
+    position: absolute;
+    left: -5rem;
+}
+
+.wavy-right {
+    position: absolute;
+    right: -5rem;
+}
+
+
+.tech-title img {
+    width: 4rem;
+}
+
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}

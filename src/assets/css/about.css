@@ -1,0 +1,65 @@
+.about {
+    background-image: url(../img/texture.png);
+    background-color: #E6E6F9;
+    padding: 8rem 6rem;
+    position: relative;
+    text-align: center;
+}
+
+.about .img-left {
+    width: 160px;
+    position: absolute;
+    bottom: 0;
+    left: -2rem;
+}
+
+.about .img-right {
+    width: 208px;
+    position: absolute;
+    top: 5rem;
+    right: -2rem;
+}
+
+.about h2 {
+    font-family: BeVietnamPro-Bold;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.about h3 {
+    font-family: BeVietnamPro-Thin;
+    margin: 1.5rem 0 3rem 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h3 img {
+    width: 1.75rem;
+    margin-left: .375rem;
+    margin-right: .375rem;
+}
+
+.people {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

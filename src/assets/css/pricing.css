@@ -1,0 +1,103 @@
+.pricing {
+    background-image: url(../img/texture.png);
+    background-color: #FCE1E1;
+    padding: 8rem 6rem;
+    position: relative;
+    text-align: center;
+}
+
+.pricing .img-center {
+    width: 96px;
+    position: absolute;
+    top: 2rem;
+}
+
+.pricing h2 {
+    font-family: BeVietnamPro-Bold;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.pricing h3 {
+    font-family: BeVietnamPro-Thin;
+    margin: 1.5rem 0 3rem 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing .boxprice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pricing .boxprice .box {
+    padding: 32px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-align: start;
+    width: 50%;
+    max-width: 32rem;
+    position: relative;
+}
+
+.pricing .boxprice .box:first-child {
+    margin-right: 4px;
+}
+
+.pricing .boxprice .box:last-child {
+    margin-left: 4px;
+}
+
+.pricing .boxprice .box .tilte {
+    font-size: 20px;
+}
+
+.pricing .boxprice .box .price {
+    font-family: BeVietnamPro-Bold;
+    margin-top: 32px;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.pricing .boxprice .box .article {
+    margin-bottom: 48px;
+    font-size: 14px;
+}
+
+.pricing .boxprice .box button {
+    background-color: rgb(39, 39, 42);
+    color: #FFFFFF;
+    padding: 12px 32px;
+    border-radius: 8px;
+    box-shadow: black 0px 0px 0px 0px, black 0px 0px 0px 0px, rgba(0, 0, 0, 0.3) 6px 6px 0px 0px;
+}
+
+.pricing .boxprice .box button:hover {
+    transform: translate(0, -6px);
+}
+
+.pricing .boxprice .box .popular {
+    background-color: #EB2F06;
+    color: #FFFFFF;
+    position: absolute;
+    padding: 6px 10px;
+    top: -16px;
+    font-size: 12px;
+    border-radius: 8px;
+    transform: rotate(-16deg);
+}
+
+.pricing .boxprice .box img {
+    position: absolute;
+    width: 32px;
+    left: 150px;
+    top: -44px;
+    
+}

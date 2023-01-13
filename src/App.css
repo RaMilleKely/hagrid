@@ -1,0 +1,44 @@
+@font-face {
+  font-family: BeVietnamPro;
+  src: url(./assets/font/Be_Vietnam_Pro/BeVietnamPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: BeVietnamPro-Bold;
+  src: url(./assets/font/Be_Vietnam_Pro/BeVietnamPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: BeVietnamPro-Black;
+  src: url(./assets/font/Be_Vietnam_Pro/BeVietnamPro-Black.ttf);
+}
+
+@font-face {
+  font-family: BeVietnamPro-Thin;
+  src: url(./assets/font/Be_Vietnam_Pro/BeVietnamPro-Thin.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: BeVietnamPro;
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  border: 0px;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}

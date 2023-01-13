@@ -1,0 +1,58 @@
+.hagridface {
+    background-color: #18181B;
+    padding: 8rem 6rem;
+    display: flex;
+}
+
+.hagridface .profil {
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.hagridface .texte {
+    width: 60%;
+}
+
+.hagridface .nindo {
+    position: relative;
+}
+
+.hagridface .nindo p {
+    font-family: BeVietnamPro-Bold;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: white;
+    max-width: 48rem;
+}
+
+.hagridface .nindo img {
+    position: absolute;
+    top: -48px;
+    left: -56px;
+}
+
+.hagridface .profil .pdp {
+    width: 320px;
+    border-radius: 50%;
+}
+
+.mark-vinod {
+    position: absolute;
+    right: 5rem;
+    top: 17rem;
+}
+
+.texte button {
+    font-family: BeVietnamPro-Bold;
+    padding: 24px 48px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border-radius: 8px;
+    margin-top: 48px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.3) 8px 8px 0px 0px;
+}
+
+.texte button:hover {
+    transform: translate(0, -6px);
+}

@@ -1,0 +1,125 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    font-weight: 700;
+    color: #000;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem 0 6rem;
+    height: 5rem;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;
+}
+
+.navbar .logo img {
+    height: 38.95px;
+}
+
+.navbar .nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-list .nav-item {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: .75rem 2rem .75rem 2rem;
+}
+
+.navbar .nav-list .nav-item:last-child, .nav-list .nav-item:last-child:hover {
+    font-weight: 800;
+    color: #FFF;
+    background-color: #27272A;
+    box-shadow: rgba(0, 0, 0, 0.3) 6px 6px 0px 0px;
+}
+
+.navbar .nav-list .nav-item:hover {
+    transform: translate(0, -6px);
+}
+
+.navbar .nav-list .nav-item:hover {
+    background-color: #E5E5E5;
+}
+
+.icone-BiMenu, .icone-BiX {
+    display: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.navbar .hagrid-logo {
+    display: none;
+    width: 35px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .icone-BiMenu {
+        display: block;
+    }
+
+    .navbar.resp .icone-BiMenu  {
+        display: none;
+    }
+
+    .navbar.resp .icone-BiX {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 96px;
+    }
+
+    .navbar .nav-list {
+        display: none;
+    }
+
+    .navbar.resp {
+        padding: 0;
+        height: 100vh;
+        background-color: white;
+    }
+
+    .navbar.resp .logo {
+        display: none;
+    }
+
+    .navbar.resp .hagrid-logo {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 96px;
+    }
+
+    .navbar.resp .nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        letter-spacing: 1px;
+    }
+
+    .navbar.resp .nav-list .nav-item {
+        padding: 2rem;
+        font-size: 2rem;
+        width: 80%;
+        text-align: center;
+    }
+
+    .navbar.resp .nav-list .nav-item:last-child {
+        color: #000;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .navbar.resp .nav-list .nav-item:last-child:hover {
+        background-color: #E5E5E5;
+    }
+}

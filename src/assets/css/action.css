@@ -1,0 +1,135 @@
+.action {
+    background-image: url(../img/texture.png);
+    background-color: #FFF2FD;
+    padding: 8rem 6rem;
+    position: relative;
+    text-align: center;
+}
+
+.action .img-left {
+    width: 10rem;
+    position: absolute;
+    top: 50%;
+    left: -4rem;
+}
+
+.action .img-right {
+    width: 10rem;
+    position: absolute;
+    top: 3rem;
+    right: -3rem;
+}
+
+.action h2 {
+    font-family: BeVietnamPro-Bold;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.action h3 {
+    font-family: BeVietnamPro-Thin;
+    margin: 1.5rem 0 3rem 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.action .hagrid-blog {
+    display: block;
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: #FFFFFF;
+    padding: 32px 0;
+    position: relative;
+    
+}
+
+.action .hagrid-blog .watermark {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    font-size: 12px;
+}
+
+.action .hagrid-blog .watermark b {
+    font-size: 12px;
+}
+
+.post-container {
+    padding: 32px 128px;
+    text-align: start;
+}
+
+.post-container p {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.post-container input {
+    margin: 24px 0;
+    padding: 16px 12px;
+    border: 2px solid rgb(229, 231, 235);
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.post-container button {
+    display: block;
+    margin-left: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 12px 28px;
+    border-radius: 20px;
+}
+
+.question-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 128px 16px 128px;
+}
+
+.question-login button, .more-questions button {
+    padding: 8px 28px;
+    border-radius: 20px;
+    border: 1px solid rgb(229, 231, 235);
+    background-color: #FFFFFF;
+}
+
+.question-card {
+    text-align: start;
+    padding: 16px 128px;
+}
+
+.question-card .title {
+    line-height: 1.6em;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.question-card .auteur {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: .5rem;
+    margin-bottom: 20px;
+}
+
+.question-card .auteur .userpic {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.question-card .auteur .username {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.question-card .content {
+    line-height: 1.6em;
+    font-size: 1rem;
+}
